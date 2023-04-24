@@ -91,7 +91,7 @@
 
         $('#ajax-table').DataTable({
 
-            "oLanguage": DATATABLE_PTBR,
+            "oLanguage": DATATABLE_PTBR
             ajax: "<?php echo site_url('Usuarios/recuperausuarios'); ?>",
             columns: [{
                     data: 'imagem'
