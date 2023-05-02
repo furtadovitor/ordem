@@ -1,4 +1,4 @@
-<?= $this->extend('layout/principal'); ?>
+<?= $this->extend('Layout/principal'); ?>
 
 <?= $this->section('titulo'); ?>
 
@@ -23,6 +23,10 @@
 
     <div class="col-lg-12">
         <div class="block">
+
+            <a href="<?php echo site_url('usuarios/criar'); ?>" class="btn btn-danger mb-4">Criar novo Usuário</a>
+
+
             <div class="table-responsive">
                 <table id="ajax-table" style="width:100%" class="table table-striped table-sm">
                     <thead>
@@ -91,7 +95,7 @@
 
         $('#ajax-table').DataTable({
 
-            "oLanguage": DATATABLE_PTBR
+            "oLanguage": DATATABLE_PTBR,
             ajax: "<?php echo site_url('Usuarios/recuperausuarios'); ?>",
             columns: [{
                     data: 'imagem'
@@ -112,6 +116,11 @@
                     data: 'ativo'
                 }
             ],
+            "deferRender": true,
+            "processing" : true,
+            "responsive" : true,
+            "pagingType" : "numbers",
+           
         });
     });
 </script>

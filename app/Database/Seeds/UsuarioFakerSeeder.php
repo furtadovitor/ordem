@@ -17,7 +17,7 @@ class UsuarioFakerSeeder extends Seeder
         // instanciando a biblioteca do faker
         $faker = \Faker\Factory::create('pt_BR');        
         
-        $criarQuantosUsuarios = 50;
+        $criarQuantosUsuarios = 5000;
 
         $usuarios_push = [];
 
@@ -30,7 +30,7 @@ class UsuarioFakerSeeder extends Seeder
                 'cpf' => $faker->unique()->cpf,
                // 'cpf' => $faker->unique()->cpf,
                 'password_hash' => '123456', //alterar o fake seeder quando conhecermos como criptografar a senha
-                'ativo' => 'true',
+                'ativo' => $faker->numberBetween(0, 1), //alternando entre ativo e não ativo 
 
             ]);
 

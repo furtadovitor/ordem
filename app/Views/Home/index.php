@@ -1,4 +1,4 @@
-<?= $this->extend('layout/principal'); ?>
+<?= $this->extend('Layout/principal'); ?>
 
 <?= $this->section('titulo'); ?>
 
