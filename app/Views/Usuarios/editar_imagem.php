@@ -75,7 +75,7 @@
             $.ajax({
 
                 type: 'POST', //pego os dados via POST
-                url: '<?php echo site_url('usuarios/atualizar'); ?>', //redireciono para o método atualizar
+                url: '<?php echo site_url('usuarios/upload'); ?>', //redireciono para o método atualizar
                 data: new FormData(this), //pego todos os dados do formulário
                 dataType: 'json', //tipo de dado que terei como retorno
                 contentType: false,
@@ -97,10 +97,7 @@
 
 
                     if (!response.erro) {
-                        $("[name=csrf_ordem]").val(response.token);
-
-                        //Tudo certo com a validação do usuário, podemso redicionar tranquilamente  
-
+                        
                         window.location.href = "<?php echo site_url("usuarios/exibir/$usuario->id"); ?>";
 
 
