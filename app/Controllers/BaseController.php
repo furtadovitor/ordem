@@ -35,7 +35,7 @@ abstract class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = ['form'];
+    protected $helpers = ['form', 'html'];
 
     /**
      * Be sure to declare properties for any property fetch you initialized.
@@ -54,5 +54,25 @@ abstract class BaseController extends Controller
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
+    }
+
+    protected function exibeArquivo(string $destino, string $arquivo){
+
+        $path = WRITEPATH . "uploads/$destino/$arquivo";
+
+        $fileInfo = new \finfo(FILEINFO_MIME);
+
+        $fileType = $fileInfo->file($path);
+
+        header("Content-type: $fileType");
+
+        header("Content-Length: " . filesize($path));
+
+        readfile($path);
+
+        exit;
+
+
+
     }
 }

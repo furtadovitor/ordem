@@ -34,7 +34,7 @@
 
                 <?php else : ?>
 
-                <img src="<?php echo site_url("usuarios/imagem/$usuario->imagem"); ?> " class="card-img-top"
+                <img src="<?php echo site_url("usuarios/    /$usuario->imagem"); ?> " class="card-img-top"
                     style="width: 90%" alt="Usuário <?php echo esc($usuario->nome); ?>">
 
                 <?php endif;  ?>

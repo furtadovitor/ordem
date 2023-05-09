@@ -50,7 +50,7 @@ class Usuarios extends BaseController
 
         ];
 
-        $usuarios = $this->usuarioModel->select($atributos)->orderBy('ID', 'desc')->findAll();
+        $usuarios = $this->usuarioModel->select($atributos)->withDeleted(true)->orderBy('ID', 'desc')->findAll();
 
 
         //recebe o array com os objetos de usuários
@@ -58,10 +58,36 @@ class Usuarios extends BaseController
 
         foreach ($usuarios as $usuario) {
 
+
+            //Definindo o caminho da imagem do usuário
+            if($usuario->imagem != null){
+
+                $imagem = [
+                    'src' => site_url("usuarios/imagem/$usuario->imagem"),
+                    'class' => 'rounded-circle img-fluid',
+                    'alt' => esc($usuario->nome),
+                    'width' => '50',
+                ];
+
+
+            }else{
+
+
+                $imagem = [
+                    'src' => site_url("recursos/img/usuario_sem_imagem.png"),
+                    'class' => 'rounded-circle img-fluid',
+                    'alt' => "Usuário sem imagem",
+                    'width' => '50',
+                ];
+
+
+
+            }
+
             $nomeUsuario = esc($usuario->nome);
 
             $data[] = [
-                'imagem' => $usuario->imagem,
+                'imagem' => $usuario->imagem = img($imagem),
                 'id' => $usuario->id,
                 'nome' => anchor("usuarios/exibir/$usuario->id", esc($usuario->nome), 'title = "Exibir usuário ' . $nomeUsuario . '" '),
                 'email' => esc($usuario->email),
@@ -183,6 +209,7 @@ class Usuarios extends BaseController
     public function editarimagem(int $id = null)
     {
 
+        
         $usuario = $this->buscaUsuarioOu404($id);
 
         $data =  [
@@ -240,7 +267,6 @@ class Usuarios extends BaseController
 
         }
 
-        exit();
 
 
         //recupero o post da requisição
@@ -251,43 +277,65 @@ class Usuarios extends BaseController
         //validamos a existência do usuário
         $usuario = $this->buscaUsuarioOu404($post['id']);
 
-
-        // Se não for irformado a senha, removemos do $post.
-        // Pois, se não fizermos dessa forma, o hashPassword fará o hash de uma string vazia
-        if (empty($post['password'])) {
-            unset($post['password']);
-            unset($post['password_comfirmation']);
-        }
+        //recuperando a imagem do usuario que veio no post 
+        $imagem = $this->request->getFile('imagem');
 
 
-        //Preenchendo os atributos do usuário com os valores do post
-        $usuario->fill($post);
+        //Método list é para pegar a largura e a altura do get através do getimagesize
+        list($largura, $altura) = getimagesize($imagem->getPathname());
 
-        if ($usuario->hasChanged() == false) {
 
-            $retorno['info'] = 'Não há dados para serem atualizados';
+        //Validação para tamanho mínimo de altura e largura
+        if($largura < "300" || $altura < "300"){
+
+            $retorno['erro'] = 'Por favor, verifique os erros abaixo e tente novamente';
+            $retorno['erros_model'] = ['dimensao' => 'A imagem não pode ser menor do que 300 x 300 pixels'];
 
             return $this->response->setJSON($retorno);
+
         }
 
-        //desabilitei a proteção por conta do "ativo".
-        //Só pode ser desabilidade a proteção pois esse formulário específico só é manipulado por ADMIN.
-        if ($this->usuarioModel->protect(false)->save($usuario)) {
+        //cria a pasta da imagem
+        $imagemCaminho = $imagem->store('usuarios');
 
-            //Vamos conhecer mensagem de flashdata
-            session()->setFlashdata('sucesso', 'Dados salvos com sucesso');
+        //mostra o caminho para salvar a imagem
+        $imagemCaminho = WRITEPATH . 'uploads/' . $imagemCaminho;
 
-            return $this->response->setJSON($retorno);
+ 
+
+        //Recuperando a possível imagem antiga
+        $imagemAntiga = $usuario->imagem;
+    
+
+        $this->manipulacaoImagem($imagemCaminho, $usuario->id);
+
+        //A partir daqui, estamos atualizando a tabela de usuários
+        $usuario->imagem = $imagem->getName();
+        
+        $this->usuarioModel->save($usuario);
+
+        if($imagemAntiga != null){
+
+            $this->removeImagemDoFileSystem($imagemAntiga);
         }
 
-        //retornando os erros de validação 
-        $retorno['erro'] = 'Por favor, verifique os erros de validação e tente novamente';
-        $retorno['erros_model'] = $this->usuarioModel->errors();
 
+
+        session()->setFlashdata('sucesso', 'Imagem atualizada com sucesso');
 
 
         //retorno para o ajax request
         return $this->response->setJSON($retorno);
+    }
+
+    public function imagem(string $imagem = null){
+
+        if($imagem != null){
+
+            $this->exibeArquivo('usuarios', $imagem);
+        }
+
+
     }
 
     public function atualizar()
@@ -357,6 +405,44 @@ class Usuarios extends BaseController
         return $this->response->setJSON($retorno);
     }
 
+    public function excluir(int $id = null)
+    {
+
+        $usuario = $this->buscaUsuarioOu404($id);
+
+        if($this->request->getMethod() === 'post'){
+
+
+            //Excluindo o usuário
+            $this->usuarioModel->delete($usuario->id);
+
+            if($usuario->imagem != null){
+
+                //Deletando a imagem do fileSystem
+                
+                $this->removeImagemDoFileSystem($usuario->imagem);
+            }
+
+            //retornando para a view usuarios
+            return redirect()->to(site_url('usuarios'))->with('sucesso', "Usuário $usuario->nome excluído com sucesso");
+
+
+        }
+
+        //mostrando a foto do usuário nulo 
+        $usuario->imagem = null;
+
+        $data =  [
+
+            'titulo' => 'Excluindo o usuário ' . esc($usuario->nome) . '',
+            'usuario' => $usuario,
+
+        ];
+
+
+        return view('Usuarios/excluir', $data);
+    }
+
     // // //Horário para manipulação de folha de ponto 
     //  public function horario($dias = 20){
 
@@ -407,5 +493,42 @@ class Usuarios extends BaseController
         }
 
         return $usuario;
+    }
+
+    private function removeImagemDoFileSystem(string $imagem){
+
+        $imagemCaminho = WRITEPATH . 'uploads/usuarios/' . $imagem;
+
+        if(is_file($imagemCaminho)){
+
+            unlink($imagemCaminho);
+        }
+
+    }
+
+    private function manipulacaoImagem(string $imagemCaminho, int $usuario_id){
+
+        //Manipulando a imagem que já está salva no diretório
+        service('image')
+        ->withFile($imagemCaminho)
+        ->fit(300, 300, 'center')
+        ->save($imagemCaminho);
+
+           $anoAtual = date('Y');
+   
+           //Adicionando marca d'água 
+           \Config\Services::image('imagick')
+           ->withFile($imagemCaminho)
+           ->text("Ordem $anoAtual - User-ID: $usuario_id" , [
+           'color'      => '#000000',
+           'opacity'    => 0.5,
+           'withShadow' => false,
+           'hAlign'     => 'center',
+           'vAlign'     => 'bottom',
+           'fontSize'   => 10,
+       ])
+       ->save($imagemCaminho);
+   
+        
     }
 }
