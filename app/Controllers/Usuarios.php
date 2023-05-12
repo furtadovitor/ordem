@@ -46,6 +46,7 @@ class Usuarios extends BaseController
             'cpf',
             'ativo',
             'imagem',
+            'deletado_em',
 
 
         ];
@@ -92,7 +93,8 @@ class Usuarios extends BaseController
                 'nome' => anchor("usuarios/exibir/$usuario->id", esc($usuario->nome), 'title = "Exibir usuário ' . $nomeUsuario . '" '),
                 'email' => esc($usuario->email),
                 'cpf' => $usuario->cpf,
-                'ativo' => ($usuario->ativo == true ? '<span class="text-success">Ativo <i class="fa fa-unlock"></i></span>' : '<span class="text-danger">Inativo <i class="fa fa-lock"></i></span>'),
+                'ativo' => $usuario->exibeSituacao(),            
+            
             ];
         }
 
@@ -410,6 +412,14 @@ class Usuarios extends BaseController
 
         $usuario = $this->buscaUsuarioOu404($id);
 
+
+        if($usuario->deletado_em != null){
+
+        return redirect()->back()->with('info', " Usuário já encontra-se excluído.");
+
+        }
+
+
         if($this->request->getMethod() === 'post'){
 
 
@@ -422,6 +432,12 @@ class Usuarios extends BaseController
                 
                 $this->removeImagemDoFileSystem($usuario->imagem);
             }
+
+            //Excluindo a imagem e tornando o usuário inativo.
+            $usuario->imagem = null;
+            $usuario->ativo = false;
+
+            $this->usuarioModel->protect(false)->save($usuario);
 
             //retornando para a view usuarios
             return redirect()->to(site_url('usuarios'))->with('sucesso', "Usuário $usuario->nome excluído com sucesso");
@@ -442,6 +458,26 @@ class Usuarios extends BaseController
 
         return view('Usuarios/excluir', $data);
     }
+
+    public function restaurarExclusao(int $id = null)
+    {
+
+        $usuario = $this->buscaUsuarioOu404($id);
+
+        if($usuario->deletado_em == null){
+
+            return redirect()->back()->with('info', " Apenas usuários excluídos podem ser recuperados.");
+
+        }
+
+        $usuario->deletado_em = null;
+        $this->usuarioModel->protect(false)->save($usuario);
+
+        return redirect()->back()->with('success', " Usuário $usuario->nome recuperado com sucesso.");
+
+
+    }
+
 
     // // //Horário para manipulação de folha de ponto 
     //  public function horario($dias = 20){

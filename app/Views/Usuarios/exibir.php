@@ -34,7 +34,7 @@
 
                 <?php else : ?>
 
-                <img src="<?php echo site_url("usuarios/    /$usuario->imagem"); ?> " class="card-img-top"
+                <img src="<?php echo site_url("usuarios/imagem/$usuario->imagem"); ?> " class="card-img-top"
                     style="width: 90%" alt="Usuário <?php echo esc($usuario->nome); ?>">
 
                 <?php endif;  ?>
@@ -52,7 +52,7 @@
             <p class="card-text">Email: <?php echo esc($usuario->email); ?> </p>
             <p class="card-text">Criado em: <?php echo esc($usuario->criado_em->humanize()); ?> </p>
             <p class="card-text">Atualizado em: <?php echo ($usuario->atualizado_em->humanize()); ?> </p>
-            <p class="card-text">Situação: <?php echo ($usuario->ativo == true ? 'Usuário ativo' : 'Usuário inativo'); ?> </p>
+            <p class="card-text">Situação: <?php echo $usuario->exibeSituacao(); ?> </p>
 
            
             <br>
@@ -65,7 +65,16 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="<?php echo site_url("usuarios/editar/$usuario->id"); ?>">Editar usuário</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="<?php echo site_url("usuarios/excluir/$usuario->id"); ?>">Excluir usuário</a>
+
+                    <?php if($usuario->deletado_em == null): ?> 
+
+                        <a class="dropdown-item" href="<?php echo site_url("usuarios/excluir/$usuario->id"); ?>">Excluir usuário</a>
+
+                    <?php else: ?>
+
+                        <a class="dropdown-item" href="<?php echo site_url("usuarios/restaurarexclusao/$usuario->id"); ?>">Recuperar usuário</a>
+
+                    <?php endif; ?>
                 </div>
             </div>
 
