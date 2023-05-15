@@ -20,7 +20,7 @@
 
     <div class="col-lg-4">
 
-        <div class="block">
+        <div class="user-block block">
 
             
             <div class="text-center">
@@ -52,7 +52,7 @@
             <p class="card-text">Email: <?php echo esc($usuario->email); ?> </p>
             <p class="card-text">Criado em: <?php echo esc($usuario->criado_em->humanize()); ?> </p>
             <p class="card-text">Atualizado em: <?php echo ($usuario->atualizado_em->humanize()); ?> </p>
-            <p class="card-text">Situação: <?php echo $usuario->exibeSituacao(); ?> </p>
+            <p class="contributions mt-0">Situação: <?php echo $usuario->exibeSituacao(); ?> </p>
 
            
             <br>
