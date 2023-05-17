@@ -62,6 +62,11 @@
                     <a class="dropdown-item" href="<?php echo site_url("grupos/editar/$grupo->id"); ?>">Editar grupo de acesso</a>
                     <div class="dropdown-divider"></div>
 
+                    <?php if($grupo->id >= 3): ?>
+                    <a class="dropdown-item" href="<?php echo site_url("grupos/permissoes/$grupo->id"); ?>">Editar permissões de acesso</a>
+
+                    <?php endif; ?>
+
                     <?php if($grupo->deletado_em == null): ?> 
 
                         <a class="dropdown-item" href="<?php echo site_url("grupos/excluir/$grupo->id"); ?>">Excluir grupo de acesso</a>

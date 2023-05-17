@@ -11,7 +11,7 @@
 
 
 <div class="form-group">
-  <label class="form-control-label">Exibir grupo de acesso para edição/exclusão?</label>
+  <label class="form-control-label">Exibir grupo de acesso?</label>
   <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dúvidas sobre situação" data-content="Esse grupo <?php echo ($grupo->exibir == true ? 'será' : 'não será'); ?> exibido como opção na hora de definir um: <b>responsável técnico</b> pela ordem de serviço"><i class="fa fa-solid fa-question text-danger"></i></a>
 
   <br>
