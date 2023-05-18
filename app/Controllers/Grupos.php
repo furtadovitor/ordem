@@ -324,8 +324,6 @@ class Grupos extends BaseController
         $grupo->permissoes = $this->grupoPermissaoModel->recuperaPermissoesDoGrupo($grupo->id, 5);
         $grupo->pager = $this->grupoPermissaoModel->pager;
 
-        dd($grupo);
-
 
         $data =  [
 
