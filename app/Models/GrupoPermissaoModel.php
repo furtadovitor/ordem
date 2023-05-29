@@ -20,7 +20,7 @@ class GrupoPermissaoModel extends Model
 
         $atributos = [
 
-            'grupos_permissoes.id',
+            'grupos_permissoes.id AS principal_id', //utulizado como identificador na hora de remover a permissão do grupo
             'grupos.id AS grupo_id',
             'permissoes.id AS permissao_id',
             'permissoes.nome'
