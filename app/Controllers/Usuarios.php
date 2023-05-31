@@ -10,11 +10,16 @@ class Usuarios extends BaseController
 {
 
     private $usuarioModel;
+    private $grupoUsuarioModel;
+    private $grupoModel;
 
     public function __construct()
     {
 
         $this->usuarioModel = new \App\Models\UsuarioModel();
+        $this->grupoUsuarioModel = new \App\Models\GrupoUsuarioModel();
+        $this->grupoModel = new \App\Models\GrupoModel();
+
     }
 
     public function index()
@@ -61,7 +66,7 @@ class Usuarios extends BaseController
 
 
             //Definindo o caminho da imagem do usuário
-            if($usuario->imagem != null){
+            if ($usuario->imagem != null) {
 
                 $imagem = [
                     'src' => site_url("usuarios/imagem/$usuario->imagem"),
@@ -69,9 +74,7 @@ class Usuarios extends BaseController
                     'alt' => esc($usuario->nome),
                     'width' => '50',
                 ];
-
-
-            }else{
+            } else {
 
 
                 $imagem = [
@@ -80,9 +83,6 @@ class Usuarios extends BaseController
                     'alt' => "Usuário sem imagem",
                     'width' => '50',
                 ];
-
-
-
             }
 
             $nomeUsuario = esc($usuario->nome);
@@ -93,8 +93,8 @@ class Usuarios extends BaseController
                 'nome' => anchor("usuarios/exibir/$usuario->id", esc($usuario->nome), 'title = "Exibir usuário ' . $nomeUsuario . '" '),
                 'email' => esc($usuario->email),
                 'cpf' => $usuario->cpf,
-                'ativo' => $usuario->exibeSituacao(),            
-            
+                'ativo' => $usuario->exibeSituacao(),
+
             ];
         }
 
@@ -211,7 +211,7 @@ class Usuarios extends BaseController
     public function editarimagem(int $id = null)
     {
 
-        
+
         $usuario = $this->buscaUsuarioOu404($id);
 
         $data =  [
@@ -260,13 +260,12 @@ class Usuarios extends BaseController
 
         $validacao->setRules($regras, $mensagens);
 
-        if($validacao->withRequest($this->request)->run() == false){
+        if ($validacao->withRequest($this->request)->run() == false) {
 
             $retorno['erro'] = 'Por favor, verifique os erros abaixo e tente novamente';
             $retorno['erros_model'] = $validacao->getErrors();
 
             return $this->response->setJSON($retorno);
-
         }
 
 
@@ -288,13 +287,12 @@ class Usuarios extends BaseController
 
 
         //Validação para tamanho mínimo de altura e largura
-        if($largura < "300" || $altura < "300"){
+        if ($largura < "300" || $altura < "300") {
 
             $retorno['erro'] = 'Por favor, verifique os erros abaixo e tente novamente';
             $retorno['erros_model'] = ['dimensao' => 'A imagem não pode ser menor do que 300 x 300 pixels'];
 
             return $this->response->setJSON($retorno);
-
         }
 
         //cria a pasta da imagem
@@ -303,20 +301,20 @@ class Usuarios extends BaseController
         //mostra o caminho para salvar a imagem
         $imagemCaminho = WRITEPATH . 'uploads/' . $imagemCaminho;
 
- 
+
 
         //Recuperando a possível imagem antiga
         $imagemAntiga = $usuario->imagem;
-    
+
 
         $this->manipulacaoImagem($imagemCaminho, $usuario->id);
 
         //A partir daqui, estamos atualizando a tabela de usuários
         $usuario->imagem = $imagem->getName();
-        
+
         $this->usuarioModel->save($usuario);
 
-        if($imagemAntiga != null){
+        if ($imagemAntiga != null) {
 
             $this->removeImagemDoFileSystem($imagemAntiga);
         }
@@ -330,14 +328,13 @@ class Usuarios extends BaseController
         return $this->response->setJSON($retorno);
     }
 
-    public function imagem(string $imagem = null){
+    public function imagem(string $imagem = null)
+    {
 
-        if($imagem != null){
+        if ($imagem != null) {
 
             $this->exibeArquivo('usuarios', $imagem);
         }
-
-
     }
 
     public function atualizar()
@@ -413,23 +410,22 @@ class Usuarios extends BaseController
         $usuario = $this->buscaUsuarioOu404($id);
 
 
-        if($usuario->deletado_em != null){
+        if ($usuario->deletado_em != null) {
 
-        return redirect()->back()->with('info', " Usuário já encontra-se excluído.");
-
+            return redirect()->back()->with('info', " Usuário já encontra-se excluído.");
         }
 
 
-        if($this->request->getMethod() === 'post'){
+        if ($this->request->getMethod() === 'post') {
 
 
             //Excluindo o usuário
             $this->usuarioModel->delete($usuario->id);
 
-            if($usuario->imagem != null){
+            if ($usuario->imagem != null) {
 
                 //Deletando a imagem do fileSystem
-                
+
                 $this->removeImagemDoFileSystem($usuario->imagem);
             }
 
@@ -441,8 +437,6 @@ class Usuarios extends BaseController
 
             //retornando para a view usuarios
             return redirect()->to(site_url('usuarios'))->with('sucesso', "Usuário $usuario->nome excluído com sucesso");
-
-
         }
 
         //mostrando a foto do usuário nulo 
@@ -464,17 +458,121 @@ class Usuarios extends BaseController
 
         $usuario = $this->buscaUsuarioOu404($id);
 
-        if($usuario->deletado_em == null){
+        if ($usuario->deletado_em == null) {
 
             return redirect()->back()->with('info', " Apenas usuários excluídos podem ser recuperados.");
-
         }
 
         $usuario->deletado_em = null;
         $this->usuarioModel->protect(false)->save($usuario);
 
         return redirect()->back()->with('success', " Usuário $usuario->nome recuperado com sucesso.");
+    }
 
+
+    public function grupos(int $id = null)
+    {
+
+        $usuario = $this->buscaUsuarioOu404($id);
+
+        $usuario->grupos = $this->grupoUsuarioModel->recuperaGruposDoUsuario($usuario->id, 5);
+        $usuario->pager = $this->grupoUsuarioModel->pager;
+
+        $data =  [
+
+            'titulo' => 'Gerenciando os grupos de acesso do usuário ' . esc($usuario->nome) . '',
+            'usuario' => $usuario,
+
+        ];
+
+        //Quando o usuário for um cliente, retorno a view para exibição do usuário informando que ele é um cliente en ão pode adicionar grupos
+        if(in_array(2, array_column($usuario->grupos, 'grupo_id'))){
+
+            return redirect()->back()->with('info', ' O usuário <b>'.$usuario->nome. '</b> é um <b>cliente</b> e não é possível adicioná-lô a outros grupos.');
+
+        }
+
+        if(!empty($usuario->grupos)){
+
+            //recuperando os grupos que o usuário não faz parte 
+            
+            $gruposExistentes = array_column($usuario->grupos, 'grupo_id');
+
+            $data['gruposDisponiveis'] = $this->grupoModel->where('id !=', 2)->whereNotIn('id', $gruposExistentes)->findAll();
+
+        
+        }else{
+
+            //Recuperando todos os grupos, com excessão do grupo ID "2" que é cliente
+
+            $data['gruposDisponiveis'] = $this->grupoModel->where('id !=', 2)->findAll();
+
+
+        }
+
+        return view('Usuarios/grupos', $data);
+    }
+
+    public function salvarGrupos()
+    {
+
+        if (!$this->request->isAjax()) {
+
+            return redirect()->back();
+        }
+
+        //envio do hash do token do form
+        $retorno['token'] = csrf_hash();
+
+        //recupero o post da requisição
+        $post = $this->request->getPost();
+
+        //validamos a existência do Grupo
+        $usuario = $this->buscaUsuarioOu404($post['id']);
+
+        if (empty($post['grupo_id'])) {
+
+            //retornando os erros de validação 
+            $retorno['erro'] = 'Por favor, verifique os erros de validação e tente novamente';
+            $retorno['erros_model'] = ['grupo_id' => 'Escolha um ou mais grupos para salvar'];
+
+
+
+            //retorno para o ajax request
+            return $this->response->setJSON($retorno);
+        }
+
+        if(in_array(2, $post['grupo_id'])){
+
+             //retornando os erros de validação 
+             $retorno['erro'] = 'Por favor, verifique os erros de validação e tente novamente';
+             $retorno['erros_model'] = ['grupo_id' => 'O grupo de clientes não pode ser atribuído de forma manual'];
+
+              //retorno para o ajax request
+            return $this->response->setJSON($retorno);
+
+        }
+
+        //REcebendo as permissões do POST
+
+        $gruposPush = [];
+
+        foreach($post['grupo_id'] as $grupos){
+
+            array_push($gruposPush, [
+                'grupo_id' => $grupos,
+                'usuario_id' => $usuario->id,
+              
+
+            ]);
+
+        }
+
+        $this->grupoUsuarioModel->insertBatch($gruposPush);
+
+        session()->setFlashdata('sucesso', ' Dados salvos com sucesso');
+
+        return $this->response->setJSON($retorno);
 
     }
 
@@ -531,40 +629,39 @@ class Usuarios extends BaseController
         return $usuario;
     }
 
-    private function removeImagemDoFileSystem(string $imagem){
+    private function removeImagemDoFileSystem(string $imagem)
+    {
 
         $imagemCaminho = WRITEPATH . 'uploads/usuarios/' . $imagem;
 
-        if(is_file($imagemCaminho)){
+        if (is_file($imagemCaminho)) {
 
             unlink($imagemCaminho);
         }
-
     }
 
-    private function manipulacaoImagem(string $imagemCaminho, int $usuario_id){
+    private function manipulacaoImagem(string $imagemCaminho, int $usuario_id)
+    {
 
         //Manipulando a imagem que já está salva no diretório
         service('image')
-        ->withFile($imagemCaminho)
-        ->fit(300, 300, 'center')
-        ->save($imagemCaminho);
+            ->withFile($imagemCaminho)
+            ->fit(300, 300, 'center')
+            ->save($imagemCaminho);
 
-           $anoAtual = date('Y');
-   
-           //Adicionando marca d'água 
-           \Config\Services::image('imagick')
-           ->withFile($imagemCaminho)
-           ->text("Ordem $anoAtual - User-ID: $usuario_id" , [
-           'color'      => '#000000',
-           'opacity'    => 0.5,
-           'withShadow' => false,
-           'hAlign'     => 'center',
-           'vAlign'     => 'bottom',
-           'fontSize'   => 10,
-       ])
-       ->save($imagemCaminho);
-   
-        
+        $anoAtual = date('Y');
+
+        //Adicionando marca d'água 
+        \Config\Services::image('imagick')
+            ->withFile($imagemCaminho)
+            ->text("Ordem $anoAtual - User-ID: $usuario_id", [
+                'color'      => '#000000',
+                'opacity'    => 0.5,
+                'withShadow' => false,
+                'hAlign'     => 'center',
+                'vAlign'     => 'bottom',
+                'fontSize'   => 10,
+            ])
+            ->save($imagemCaminho);
     }
 }

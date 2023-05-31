@@ -28,7 +28,7 @@
                 <div id="response">
 
                 </div>
-
+                
                 <?php echo form_open('/', ['id' => 'form'], ['id' => "$grupo->id"]) ?>
 
                 <?php echo $this->include('Grupos/_form'); ?>

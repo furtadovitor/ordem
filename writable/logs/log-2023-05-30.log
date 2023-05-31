@@ -1,0 +1,1423 @@
+INFO - 2023-05-30 12:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 12:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 14:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 14:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 14:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:33 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:35 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:36 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:36 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:37 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 14:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:39 --> Argument 1 passed to App\Controllers\Grupos::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:42 --> Argument 1 passed to App\Controllers\Grupos::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Grupos.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Grupos->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 14:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:12:52 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:12:53 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:13:01 --> Argument 1 passed to App\Controllers\Usuarios::editar() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 193.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->editar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 14:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 14:14:02 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:14:03 --> mysqli_sql_exception: Unknown column 'grupos.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:14:03 --> Unknown column 'grupos.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:14:56 --> mysqli_sql_exception: Unknown column 'gu.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:14:56 --> Unknown column 'gu.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:14:57 --> mysqli_sql_exception: Unknown column 'gu.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:14:57 --> Unknown column 'gu.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:14:57 --> mysqli_sql_exception: Unknown column 'gu.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:14:57 --> Unknown column 'gu.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:14:57 --> mysqli_sql_exception: Unknown column 'gu.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:14:57 --> Unknown column 'gu.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:14:57 --> mysqli_sql_exception: Unknown column 'gu.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:14:57 --> Unknown column 'gu.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:16:37 --> mysqli_sql_exception: Unknown column 'gu.id' in 'field list' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:16:37 --> Unknown column 'gu.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:16:57 --> mysqli_sql_exception: Unknown column 'gu.usuario_id' in 'where clause' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:16:57 --> Unknown column 'gu.usuario_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:16:58 --> mysqli_sql_exception: Unknown column 'gu.usuario_id' in 'where clause' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:16:58 --> Unknown column 'gu.usuario_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:16:58 --> mysqli_sql_exception: Unknown column 'gu.usuario_id' in 'where clause' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:16:58 --> Unknown column 'gu.usuario_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+ERROR - 2023-05-30 14:16:58 --> mysqli_sql_exception: Unknown column 'gu.usuario_id' in 'where clause' in /var/www/ordem/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/ordem/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/ordem/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ordem/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ordem/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ordem/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ordem/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#6 /var/www/ordem/app/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ordem/app/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+#8 /var/www/ordem/system/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+#9 /var/www/ordem/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ordem/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ordem/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/ordem/system/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/...')
+#13 {main}
+CRITICAL - 2023-05-30 14:16:58 --> Unknown column 'gu.usuario_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Models/GrupoUsuarioModel.php(32): CodeIgniter\BaseModel->paginate()
+ 8 APPPATH/Controllers/Usuarios.php(476): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 16:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 16:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 16:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 16:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:14 --> Undefined variable: grupo
+in APPPATH/Views/Grupos/editar.php on line 32.
+ 1 APPPATH/Views/Grupos/editar.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/ordem/app/Views/Grupos/editar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Usuarios.php(489): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:19 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:21 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:24 --> Undefined variable: grupo
+in APPPATH/Views/Grupos/editar.php on line 32.
+ 1 APPPATH/Views/Grupos/editar.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/ordem/app/Views/Grupos/editar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Usuarios.php(489): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:29:26 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:24 --> Undefined variable: grupo
+in APPPATH/Views/Grupos/editar.php on line 32.
+ 1 APPPATH/Views/Grupos/editar.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/ordem/app/Views/Grupos/editar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Usuarios.php(489): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:25 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:31:27 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+INFO - 2023-05-30 16:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:44:01 --> Argument 1 passed to App\Controllers\Usuarios::exibir() must be of the type int or null, string given, called in /var/www/ordem/system/CodeIgniter.php on line 934
+in APPPATH/Controllers/Usuarios.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->exibir()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')
+CRITICAL - 2023-05-30 16:55:05 --> Undefined variable: grupo
+in APPPATH/Views/Grupos/editar.php on line 32.
+ 1 APPPATH/Views/Grupos/editar.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/ordem/app/Views/Grupos/editar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Usuarios.php(504): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Usuarios->grupos()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/ordem/public/index.php')

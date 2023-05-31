@@ -29,6 +29,7 @@
 
                 </div>
 
+
                 <?php echo form_open('/', ['id' => 'form'], ['id' => "$usuario->id"]) ?>
 
                 <?php echo $this->include('Usuarios/_form'); ?>

@@ -21,6 +21,7 @@
     <div class="col-lg-6">
 
         <div class="block">
+        <?php echo dd($grupo); ?>
 
             <div class="block-body">
 
