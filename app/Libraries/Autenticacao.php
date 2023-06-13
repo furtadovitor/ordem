@@ -10,7 +10,7 @@ class Autenticacao{
 
     public function __construct(){
 
-        $this->usuarioModel = new \App\Models\GrupoUsuarioModel();
+        $this->usuarioModel =new \App\Models\UsuarioModel();
 
     }
  
@@ -23,18 +23,23 @@ class Autenticacao{
 
         //verificando se o usuário foi encontrado
         if($usuario === null){
+
+            exit('Usuário não encontrado');
+    
             return false;
         }
 
         //Verificamos se as senhas são idênticas
         if($usuario->verificaPassword($password) == false){
-
+            exit('Senha incorreta');
             return false;
 
         }
 
         //verificando se o usuário pode logar na aplicalão (se ele está ativo)
         if($usuario->ativo == false){
+            exit('Inativo');
+
             return false;
         }
 
@@ -102,6 +107,8 @@ class Autenticacao{
 
 
     }
+
+    
 
 
 

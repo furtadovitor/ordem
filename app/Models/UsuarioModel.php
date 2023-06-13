@@ -62,4 +62,10 @@ class UsuarioModel extends Model
         
         return $data;
     }
+
+    public function buscaUsuarioPorEmail(string $email){
+
+        return $this->where('email', $email)->where('deletado_em', null)->first();   
+
+    }
 }

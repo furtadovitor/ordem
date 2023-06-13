@@ -36,6 +36,11 @@ class Usuario extends Entity
 
     }
 
+    public function verificaPassword(string $password): bool{
+
+        return password_verify($password, $this->password_hash);
+    }
+
 
 
 
