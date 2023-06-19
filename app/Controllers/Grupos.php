@@ -162,6 +162,7 @@ class Grupos extends BaseController
     {
 
         $grupo = $this->buscaGrupoOu404($id);
+        
 
         if ($grupo->id < 3) {
 

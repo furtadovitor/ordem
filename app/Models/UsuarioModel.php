@@ -68,4 +68,30 @@ class UsuarioModel extends Model
         return $this->where('email', $email)->where('deletado_em', null)->first();   
 
     }
+
+    /**
+     * Método que recupera as permissões do usuário logado
+     */
+    public function recuperaPermissoesDoUsuarioLogado(int $usuario_id){
+
+        $atributos = [
+            'usuarios.id',
+            'usuarios.nome AS usuario',
+            'grupos_usuarios.*',
+            'permissoes.nome AS permissao',
+        ];
+
+        return $this->select($atributos)
+                    ->asArray()
+                    ->join('grupos_usuarios', 'grupos_usuarios.usuario_id = usuario_id')
+                    ->join('grupos_permissoes', 'grupos_permissoes.grupo_id = grupos_usuarios.grupo_id')
+                    ->join('permissoes', 'permissoes.id = grupos_permissoes.permissao_id')
+                    ->where('usuarios.id =', $usuario_id)
+                    ->groupBy('permissoes.nome')
+                    ->findAll();
+
+
+
+    }
+
 }

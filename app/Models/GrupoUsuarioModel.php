@@ -32,6 +32,22 @@ class GrupoUsuarioModel extends Model
 
     }
 
+    /**
+     * Método que recupera o Grupo no qual o usuário logado faz parte
+     * usado apenas para definir se é cliente ou admin 
+     */
+    public function usuarioEstaNoGrupo(int $grupo_id, int $usuario_id){
+
+        return $this->where('grupo_id', $grupo_id)
+                    ->where('usuario_id', $usuario_id)
+                    ->first();
+
+
+
+
+
+    }
+
 
 
 }

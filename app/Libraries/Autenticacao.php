@@ -6,11 +6,14 @@ class Autenticacao{
 
     private $usuario;
     private $usuarioModel;
+    private $grupoUsuarioModel;
 
 
     public function __construct(){
 
-        $this->usuarioModel =new \App\Models\UsuarioModel();
+        $this->usuarioModel = new \App\Models\UsuarioModel();
+        $this->grupoUsuarioModel = new \App\Models\GrupoUsuarioModel();
+
 
     }
  
@@ -74,6 +77,59 @@ class Autenticacao{
 
         return $this->pegaUsuarioLogado() !== null;
     }
+
+    /** método que define as permissões que o usuário logado possui  */
+    public function definePermissoesDoUsuarioLogado($usuario): object{
+
+
+        $usuario->isAdmin();
+
+        echo '<pre>';
+        print_r($usuario);
+        echo '<pre>';
+        exit;
+
+
+
+
+
+    }
+
+
+    // ------------------------- métodos privados ---------------------- // 
+    
+    //
+    private function isAdmin(): bool{
+
+        $grupoAdmin = 1;
+        $administrador = $this->grupoUsuarioModel->usuarioEstaNoGrupo($grupoAdmin, session()->get('usuario_id'));
+
+        if($administrador == null){
+
+            return false;
+        }
+
+        return true;
+    }
+
+    private function isCliente(): bool{
+
+        $grupoCliente = 2;
+        $cliente = $this->grupoUsuarioModel->usuarioEstaNoGrupo($grupoCliente, session()->get('usuario_id'));
+
+        if($cliente == null){
+
+            return false;
+        }
+
+        return true;
+    }
+
+
+
+
+
+
 
     //método responsável para pegar o id do usuário e setar na sessão
     private function logaUsuario(object $usuario): void{

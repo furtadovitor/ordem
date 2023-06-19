@@ -20,9 +20,9 @@ class Home extends BaseController
     public function login(){
 
         $autenticacao = new Autenticacao();
-        $autenticacao->logout();
-        return redirect()->back()->to(site_url('/'));
-        //dd($autenticacao->login('cr-cris@hotmail.com', '11212121'));
+        $autenticacao->login('cr-cris@hotmail.com', '123456');
+
+        dd($autenticacao->isAdmin());
 
     }
 }

@@ -46,13 +46,21 @@
 
         <div class="user-block block">
 
-
             <?php if (empty($gruposDisponiveis)) : ?>
 
-                <p class="contributions text-info mt-0">Esse grupo já faz parte de todos os grupos disponíveis.</p>
+                <?PHP if($usuario->full_control == false): ?>
 
+                <p class="contributions text-info mt-0">Esse usuário já faz parte de todos os grupos disponíveis.</p>
 
             <?php else : ?>
+
+                <p class="contributions text-info mt-0">Esse usuário faz parte do grupo Administrador, para inserir outro grupo, favor remover.</p>
+
+            <?php endif; ?>
+
+            <?php else : ?>
+
+
                 <div id="response">
 
                 </div>

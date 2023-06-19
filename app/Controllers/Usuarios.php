@@ -492,6 +492,18 @@ class Usuarios extends BaseController
 
         }
 
+        $grupoAdmin = 1;
+
+        if(in_array($grupoAdmin, array_column($usuario->grupos, 'grupo_id'))){
+
+            $usuario->full_control = true;
+
+            return view('Usuarios/grupos', $data);
+
+        }
+
+        $usuario->full_control = false;
+
         if(!empty($usuario->grupos)){
 
             //recuperando os grupos que o usuário não faz parte 
@@ -550,6 +562,28 @@ class Usuarios extends BaseController
 
               //retorno para o ajax request
             return $this->response->setJSON($retorno);
+
+        }
+
+        if(in_array(1, $post['grupo_id'])){
+
+            $grupoAdmin = [
+                
+                'grupo_id' => 1,
+                'usuario_id' => $usuario->id,
+
+            ];
+
+            $this->grupoUsuarioModel->insert($grupoAdmin);
+
+            $this->grupoUsuarioModel->where('grupo_id !=', 1)
+                                    ->where('usuario_id =', $usuario->id)
+                                    ->delete();
+
+            session()->setFlashdata('sucesso', ' Dados salvos com sucesso');
+
+         return $this->response->setJSON($retorno);
+
 
         }
 
