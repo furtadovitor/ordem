@@ -41,6 +41,26 @@ class Usuario extends Entity
         return password_verify($password, $this->password_hash);
     }
 
+    /**
+     * Método que valida se o usuário logado possui a permissão para visualizar/acessar determinada rota
+     */
+    public function temPermissaoPara(string $permissao): bool{
+
+        //Se o usuário logado é admin, retornamos true
+        if($this->is_admin == true){
+            return true;
+        }
+
+
+        //Se o usuário logado($this) possui o atributo 'permissoes'
+        if(empty($this->permissoes)){
+            return false;
+        }
+
+
+         
+    }
+
 
 
 
