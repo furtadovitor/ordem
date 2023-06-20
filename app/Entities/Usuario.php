@@ -52,10 +52,34 @@ class Usuario extends Entity
         }
 
 
-        //Se o usuário logado($this) possui o atributo 'permissoes'
+        /**
+         * Se o usuário logado($this) possui o atributo 'permissoes' vazio (empty),
+         * então retornamos false também, pois a $permiossao não estará no array $permissoes.
+         * Isso acontece quando o usuário logado ($this) faz parte de um grpo que não possui permissões
+         * Ou não está em nenhum grupo de acesso
+         * Regra não é válida para clientes, pois na classe Autenticacao defini se o usuário logado é cliente ou adm.
+         */
+        
         if(empty($this->permissoes)){
+
             return false;
         }
+
+        /** 
+         * Nesse ponto, o usuário logado possui permissões,
+         * então pode ser verificado tranquilamente
+         */
+
+        if(in_array($permissao, $this->permissoes)== false) {
+
+            return false; 
+
+
+        }
+
+        //retornando true, pois a permissão é válida
+
+        return true;
 
 
          

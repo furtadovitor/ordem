@@ -78,21 +78,63 @@ class Autenticacao{
         return $this->pegaUsuarioLogado() !== null;
     }
 
-    /** método que define as permissões que o usuário logado possui  */
-    public function definePermissoesDoUsuarioLogado($usuario): object{
+    /** método que define as permissões que o usuário logado possui  
+     * Usado exclusivamente no método pegaUsuarioDaSessao()
+    */
+    private function definePermissoesDoUsuarioLogado($usuario): object{
 
 
-        $usuario->isAdmin();
+        //definindo se o usuário logado é admin
+        //isAdmin será utilizado no método temPermissaoPara() na entity Usuario
+        $usuario->isAdmin = $this->isAdmin();
 
-        echo '<pre>';
-        print_r($usuario);
-        echo '<pre>';
-        exit;
+        //Se o usuário for admin, então não é cliente.
+        if($usuario->isAdmin == true){
+
+            $usuario->is_cliente = false;
+        
+        //Nesse ponto, verifiquei se o usuário logado é um cliente, visto que ele não é admin
+        }else{
+
+            $usuario->is_cliente = $this->isCliente();
+        }
 
 
+        /**
+         * Sò recuperamos as permissões de um usário que não seja admin e não seja cliente
+         * pois esses dois grupos não possuem permissões.
+         * o atributo $usuario->permissoes será examinado na Entity Usuario para verificarmos se 
+         * o mesmo pode ou não visualizar e acessar alguma rota.
+         * Notem que se o usuário logado possui o atributo $usuario->permissoes, 
+         * é pq ele não é admin e não é cliente
+         */
+        if($usuario->isAdmin == false && $usuario->isCliente == false){
+
+            $usuario->permissoes = $this->recuperaPermissoesDoUsuarioLogado();
+
+        }
 
 
+        /**
+         * Nesse ponto já definimos se é admin ou se é cliente
+         * Caso não seja nem admin e nem cliente, então o objeto possui o atributi permissões,
+         * que pode ou não estar vazio
+         * Portanto, podemos retornar $usuario
+         */
+        return $usuario;
 
+    }
+
+    /**
+     * Método que retorna as permissões Usuário Logado
+     * 
+     * $return $array
+     */
+    private function recuperaPermissoesDoUsuarioLogado(): array{
+
+        $permissoesDoUsuario = $this->usuarioModel->recuperaPermissoesDoUsuarioLogado(session()->get('usuario_id'));
+
+        return array_column($permissoesDoUsuario, 'permissao');
     }
 
 
@@ -159,6 +201,13 @@ class Autenticacao{
         if($usuario == null || $usuario->ativo == false){
             return null;
         }
+
+        //Definindo as permissãos do usuário logado
+
+        $usuario = $this->definePermissoesDoUsuarioLogado($usuario);
+
+
+        return $usuario;
         
 
 

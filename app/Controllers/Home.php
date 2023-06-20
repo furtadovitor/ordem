@@ -19,10 +19,12 @@ class Home extends BaseController
 
     public function login(){
 
-        $autenticacao = new Autenticacao();
+        $autenticacao = service('autenticacao');    
+        
         $autenticacao->login('cr-cris@hotmail.com', '123456');
 
-        dd($autenticacao->isAdmin());
+        $usuario = $autenticacao->pegaUsuarioLogado();
 
+        dd($usuario->temPermissaoPara('excluir-usuarios'));
     }
 }
